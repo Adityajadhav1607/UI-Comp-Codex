@@ -87,7 +87,8 @@
     height: 100vh;
  }
  .team-container{
-    border: 2px solid red;
+    margin-top:50px ;
+    /* border: 2px solid red; */
     display: flex;
     padding-inline: 100px;
     justify-content: space-between;
@@ -95,16 +96,19 @@
  .team-bx{
     height: 50%;
     width: 300px;
-    border: 2px solid blue;
+    border: 2px solid #15143966;
+    border-radius: 10px;
  }
  .social-acc{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
  }
  .t-bx{
-    border: 1px solid green;
+    border: 1px solid #15143966;
     height: 30px;
     width: 100%;
+    text-align: center;
+    padding-top: 10px;
  }
  /* footer */
  .footer{
@@ -115,11 +119,12 @@
  }
  .footer-btn{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 60%;
     margin: auto;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 80px;
+    font-family: serif;
     
  }
