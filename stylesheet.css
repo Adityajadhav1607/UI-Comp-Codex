@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    /* border: 2px solid red; */
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+.home-text{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.home-image{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 40%;
+    background-image: url(images/Photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ /* navbar */
+ .navbar{
+    display: flex;
+    justify-content: space-between; 
+    padding-inline: 100px;
+    margin-top: 60px;
+ }
+ .nav-end{
+    display: flex;
+    gap: 30px;
+    
+ }
+ /* hm-cont */
+ .hm-cont{
+    /* border: 2px solid green; */
+    width: 80%;
+    padding-inline: 100px;
+    margin-top: 200px;
+    
+ }
+ .hm-bx1{
+    /* border: 2px solid red; */
+ }
+ .hm-bx2{
+    /* border: 2px solid green; */
+    margin-top: 50px;
+ }
+ /* features */
+ .features{
+    border: 2px solid greenyellow;
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://s3-alpha-sig.figma.com/img/f7e8/f8e2/82f037bd55e52d4b954227648e8bf9ff?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z5R~Q-6dyQBcmySIqSiziV9dPO2sraQb6Sg9G34-HW9adewXtwu3~J4LNNByxVIDYmEBootLClk0xP2Q0-bLJxYATn0sk94gAAutfHK1Ma4itWZpkfShXpsRBxu8I64zRTRMKy2SwRnjt~-GMKxzyvjkl5GOpLBLX1zon9bRdFIKIwHZ1TpbgBBpDpEmsKvON55NSAD9Q~5qX3Nzg0JFptSrZ~nsUHMsouq3gjJ09pJYszf4~dQRKbOsJDWCsXFWJ59gZFSq7uxl4vdk3~NAwhc8lY6nkaMbbeNA~8ir9vwlrZh~Ihi1fNISOwxLVJahmQLOL1oJZJZHTEy81owmmw__");
+    height: 100vh;
+    color: white;
+    padding-top: 100px;
+ }
+ .f-header{
+    border: 2px solid green;
+    width: 50%;
+    
+ }
+ .f-container{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+ }
+ .f-bx1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+ }
+ /* Team */
+ .team{
+    border: 2px solid black;
+    height: 100vh;
+ }
+ .team-container{
+    border: 2px solid red;
+    display: flex;
+    padding-inline: 100px;
+    justify-content: space-between;
+ }
+ .team-bx{
+    height: 50%;
+    width: 300px;
+    border: 2px solid blue;
+ }
+ .social-acc{
+    border: 2px solid red;
+    display: flex;
+ }
+ .t-bx{
+    border: 1px solid green;
+    height: 30px;
+    width: 100%;
+ }
+ /* footer */
+ .footer{
+    background-color: blue;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px   ;
+ }
+ .footer-btn{
+    display: flex;
+    border: 2px solid white;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 80px;
+    
+ }
