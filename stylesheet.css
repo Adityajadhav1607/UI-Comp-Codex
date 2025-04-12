@@ -58,7 +58,7 @@
     flex-direction: column;
     background-image: url("https://s3-alpha-sig.figma.com/img/f7e8/f8e2/82f037bd55e52d4b954227648e8bf9ff?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z5R~Q-6dyQBcmySIqSiziV9dPO2sraQb6Sg9G34-HW9adewXtwu3~J4LNNByxVIDYmEBootLClk0xP2Q0-bLJxYATn0sk94gAAutfHK1Ma4itWZpkfShXpsRBxu8I64zRTRMKy2SwRnjt~-GMKxzyvjkl5GOpLBLX1zon9bRdFIKIwHZ1TpbgBBpDpEmsKvON55NSAD9Q~5qX3Nzg0JFptSrZ~nsUHMsouq3gjJ09pJYszf4~dQRKbOsJDWCsXFWJ59gZFSq7uxl4vdk3~NAwhc8lY6nkaMbbeNA~8ir9vwlrZh~Ihi1fNISOwxLVJahmQLOL1oJZJZHTEy81owmmw__");
     height: 100vh;
-    color: white;
+    color: rgb(184, 48, 48);
     padding-top: 100px;
  }
  .f-header{
@@ -75,7 +75,7 @@
  .f-bx1{
     height: 400px;
     width: 400px;
-    border: 2px solid white;
+    border: 2px solid rgb(119, 36, 36);
     border-radius: 5%;
     padding: 20px  ;
     text-align: center;
